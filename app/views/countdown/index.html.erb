@@ -1,0 +1,11 @@
+<% days_per_weak = 7 %>
+<% today = Time.now %>
+
+<% if today.friday? || today.saturday? %>
+  <h1>Es ist Fr</h1>
+  <h1>Es ist Framstag bei Penny!!</h1>
+  <div><%= image_tag "thumbsupemoji.png", width: 300 %></div>
+<% else %>
+  <h2>Es ist noch kein Framstag :(</h2>
+  <h2>Noch <%= (today.wday-1) % days_per_weak + 1 %> Tage bis zum Framstag</h2>
+<% end %>

@@ -1,5 +1,5 @@
 <% today = Time.now %>
-<% next_friday = Date.today.next_week.advance(:days=>3).wday %>
+<% next_friday = Date.today.next_week.advance(:days=>4).wday %>
 
 <% if today.friday? || today.saturday? %>
   <h1>Es ist Fr</h1>

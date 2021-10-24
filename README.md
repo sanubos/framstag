@@ -1,24 +1,18 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* Ruby version 3.0.0
 
-Things you may want to cover:
+* Rails Version 6.1.4.1
 
-* Ruby version
+Install Homebrew on MacOS via ```/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"```in the command line
 
-* System dependencies
+```brew install rbenv```
 
-* Configuration
+```gem install rails -v 6.1.4.1```
 
-* Database creation
 
-* Database initialization
+1. You may use rbenv to install the ruby version u need ```rbenv install 3.0.0``` in the command line
+2. ```bundle install``` to install gems
+3. ```bundle exec rails s``` to start the server
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+[Windows User](https://gorails.com/setup/windows/10)
